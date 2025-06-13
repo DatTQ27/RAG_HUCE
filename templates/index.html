@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHATBOT HỖ TRỢ TUYỂN SINH</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="shortcut icon" href="static/LOGO-HUCE-AI_1.png" type="image/png" />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <a href="http://127.0.0.1:5000/">
+                <img src="static/LOGO-HUCE-AI_1.png" alt="Avatar" class="avatar">
+            </a>
+        </div>
+        <div class="header-center">
+            <span class="model-label">CHATBOT HỖ TRỢ TUYỂN SINH HUCE</span>
+        </div>
+        <div class="header-right">
+        </div>
+    </header>
+    <main>
+        <div class="chat-container" id="chat-container">
+            <div class="welcome-prompt" id="welcome-prompt">
+                <img src="static/chatbot.png" alt="Chatbot Icon" class="chatbot-icon">
+                <span>Tôi có thể giúp gì cho bạn ?</span>
+            </div>
+        </div>
+        <div class="input-area">
+            <div class="input-wrapper">
+                <div class="input-icons-left">
+                </div>
+                <input type="text" id="user-input" placeholder="Câu hỏi của quý học sinh/ sinh viên">
+                <button class="send-button"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </main>
+    <footer class="footer_section" id="footer">
+        © 2025 Hanoi University of Civil Engineering All rights reserved
+        <p>Design and develop by <a class="email-link" href="https://www.facebook.com/mngs278">Dat Trieu Quoc</a></p>
+    </footer>
+    <script src="static/script.js"></script>
+    <script>(function () { function c() { var b = a.contentDocument || a.contentWindow.document; if (b) { var d = b.createElement('script'); d.innerHTML = "window.__CF$cv$params={r:'930ba24f7cb8bfc4',t:'MTc0NDcyMjExMS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);"; b.getElementsByTagName('head')[0].appendChild(d) } } if (document.body) { var a = document.createElement('iframe'); a.height = 1; a.width = 1; a.style.position = 'absolute'; a.style.top = 0; a.style.left = 0; a.style.border = 'none'; a.style.visibility = 'hidden'; document.body.appendChild(a); if ('loading' !== document.readyState) c(); else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c); else { var e = document.onreadystatechange || function () { }; document.onreadystatechange = function (b) { e(b); 'loading' !== document.readyState && (document.onreadystatechange = e, c()) } } } })();</script>
+</body>
+
+</html>

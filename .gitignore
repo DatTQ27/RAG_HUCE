@@ -1,0 +1,35 @@
+# 1. Bỏ model nặng / file dữ liệu lớn
+models/
+*.pt
+*.safetensors
+*.bin
+*.npy
+
+
+# 2. Python cache & log
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# 3. Môi trường ảo (nếu có)
+env/
+.venv/
+venv/
+
+# 4. File cấu hình chứa API Key, thông tin nhạy cảm
+.env
+
+# 5. VSCode / IDE / hệ thống
+.vscode/
+.DS_Store
+.idea/
+*.swp
+
+# 6. File tạm hoặc build
+*.bak
+*.tmp
+*.orig
+
+# 7. Jupyter notebook checkpoint
+.ipynb_checkpoints/
